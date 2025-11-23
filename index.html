@@ -425,7 +425,7 @@
 <!-- OUR SERVICES CARDS -->
 
 <section class="wrap" aria-labelledby="services-title">
-  <h2 id="services-title" style="text-align:center; margin:0 0 28px; font-size:22px;">Our Services</h2>
+  <h2 id="services-title" style="text-align:center; margin:0 0 28px; color: #7b1f2e; font-size:22px;">Our Services</h2>
 
   <div class="features-grid">
     <article class="feature" data-visible="false">
@@ -483,29 +483,6 @@
     </article>
   </div>
 </section>
-
-<div class="bottom-band" aria-hidden="true"></div>
-
-<script>
-  // small intersection observer to reveal features on scroll
-  (function(){
-    const items = document.querySelectorAll('.feature');
-    const obs = new IntersectionObserver((entries, o) => {
-      entries.forEach((e,i) => {
-        if(e.isIntersecting){
-          e.target.setAttribute('data-visible','true');
-          o.unobserve(e.target);
-        }
-      });
-    }, {threshold:0.12});
-    items.forEach(it => obs.observe(it));
-  })();
-</script>
-
-</body>
-</html>
-
-
 
     <!-- FOOTER -->
 
