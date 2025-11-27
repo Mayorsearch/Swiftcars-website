@@ -473,7 +473,7 @@ justify-content: center;
 .footer-text {
   margin: 0;
   line-height: 1.6;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .footer-heading {
@@ -539,7 +539,7 @@ justify-content: center;
 .footer-bottom-text {
   margin: 0;
   font-size: 0.8rem;
-  color: #ffffff;
+  color: #ffffff!important;
 }
 
 
@@ -625,4 +625,33 @@ justify-content: center;
   }
 
 
- 
+  /* TERMS AND CONDITIONS */
+
+  .terms-conditions{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem;
+    line-height: 1.6;
+   
+  }
+
+
+  .terms-conditions h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+  }
+
+  .terms-conditions h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent);
+  }
+
+ .terms-conditions p {
+    margin-bottom: 1rem;
+    color: var(--muted);
+  }
