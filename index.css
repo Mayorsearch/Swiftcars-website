@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-  :root{
-    --accent:#7b1f2e;
-    --accent-weak: rgba(123,31,46,0.06);
-    --text:#222;
-    --muted:#666;
-    --muted-weak:#370606;
-    --bg:#f9f9f9;
-    --card-pad: 26px;
-    --max-width:1100px;
-    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  }
-
-
-
+:root {
+  --accent: #7b1f2e;
+  --accent-weak: rgba(123, 31, 46, 0.06);
+  --text: #222;
+  --muted: #666;
+  --muted-weak: #370606;
+  --bg: #f9f9f9;
+  --card-pad: 26px;
+  --max-width: 1100px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+}
 
 * {
   margin: 0;
@@ -22,11 +20,11 @@
   font-family: "Poppins", sans-serif;
 }
 
-body{
-    margin:0;
-    color:var(--text);
-    background:#fff;
-  }
+body {
+  margin: 0;
+  color: var(--text);
+  background: #fff;
+}
 
 .top-banner {
   width: 100%;
@@ -57,34 +55,37 @@ body{
 .nav-icons {
   display: flex;
   gap: 20px;
+  text-decoration: none !important;
+  list-style: none !important;
 }
 
 .icon {
   font-size: 22px;
   cursor: pointer;
+  text-decoration: none !important;
+  list-style: none !important;
 }
 
-.hero2 h2{
- font-family: 'Playfair Display', serif;
- font-weight: 200;
-
+.hero2 h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
 }
 
-.hero2 p{
-  font-family: 'Roboto', sans-serif;
-  font-weight:100;
+.hero2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   font-size: 15px;
 }
 
-.hero2-cards{
+.hero2-cards {
   display: flex;
   gap: 20px;
 }
 
-.card-body h5{
+.card-body h5 {
   color: var(--accent) !important;
 }
-.card-title{
+.card-title {
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0;
@@ -92,50 +93,46 @@ body{
 }
 
 /* HERO SECTION 2 */
-.hero2-content h2{
-    padding: 20px ;
- font-size: 1.6rem;
+.hero2-content h2 {
+  padding: 20px;
+  font-size: 1.6rem;
   font-weight: 700;
-    margin-bottom: 0.4rem;
+  margin-bottom: 0.4rem;
   color: var(--accent);
 }
 
-.hero2-content p{
-  font-family: 'Roboto', sans-serif;
-  font-weight:100;
+.hero2-content p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
   font-size: 15px;
   padding: 20px;
 }
 
-
 /* HERO SECTION 3 */
-.hero3-content h2{
-  padding: 20px ;
- font-family: 'Playfair Display', serif;
- font-weight: 400;
- color: var(--accent);
- 
+.hero3-content h2 {
+  padding: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: var(--accent);
+}
 
-} 
-
-.hero-sec4{
+.hero-sec4 {
   list-style: disc;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: var(--accent)!important;
+  background-color: var(--accent) !important;
   color: white !important;
 }
 
 /* HERO SECTION 4 */
-.hero4-content h2{
- font-family: 'Playfair Display', serif;
- font-weight: 400;
- color: white;
+.hero4-content h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: white;
 }
 
-.latest-cars
-{
+.latest-cars {
   display: flex;
   gap: 20px;
 }
@@ -173,17 +170,17 @@ body{
   font-weight: 600;
   margin: 0;
   color: var(--accent);
-} 
+}
 .card-title a {
   text-decoration: none;
   color: inherit;
 }
 
-
 /* HERO SECTION 4 */
 * {
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
 }
 
 .hero-sec4 {
@@ -194,7 +191,6 @@ body{
   align-items: center;
 }
 
-
 .hero-sec4-content ul {
   list-style: disc;
   text-align: center;
@@ -202,11 +198,10 @@ body{
   align-items: center;
 }
 
-
-.hero-sec4 h2{
- font-family: 'Playfair Display', serif;
- font-weight: 400;
-justify-content: center;
+.hero-sec4 h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  justify-content: center;
   align-items: center;
 }
 
@@ -224,7 +219,7 @@ justify-content: center;
 /* IMAGE SECTION */
 .car-card-image-wrapper {
   width: 100%;
-  aspect-ratio: 4 / 3; 
+  aspect-ratio: 4 / 3;
   overflow: hidden;
 }
 
@@ -299,14 +294,14 @@ justify-content: center;
   border: 1px solid transparent;
   cursor: pointer;
   background: transparent;
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+  transition: background 0.15s ease, border-color 0.15s ease,
+    transform 0.1s ease;
 }
 
 .car-card-btn.primary {
-  background:var(--accent);
+  background: var(--accent);
   color: #ffffff;
 }
-
 
 .car-card-btn.ghost {
   border-color: #d1d5db;
@@ -325,18 +320,14 @@ justify-content: center;
   transform: translateY(-1px);
 }
 
-
 .car-card:hover {
   border-color: #d1d5db;
 }
-
-
 
 .cards-flex {
   display: flex;
   gap: 20px;
 }
-
 
 .cards-flex {
   display: grid;
@@ -346,22 +337,17 @@ justify-content: center;
   grid-template-columns: 1fr;
 }
 
-
 @media (min-width: 640px) {
   .cards-flex {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-
 @media (min-width: 1024px) {
   .cards-flex {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-
-
 
 /* TESTIONAL STUFF */
 
@@ -384,13 +370,11 @@ justify-content: center;
   margin-bottom: 2rem;
 }
 
-
 .testimonials-grid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr;
 }
-
 
 @media (min-width: 768px) {
   .testimonials-grid {
@@ -429,23 +413,16 @@ justify-content: center;
   color: #6b7280;
 }
 .testimonial-rating {
-  color: #fbbf24; 
+  color: #fbbf24;
 }
-
-
 
 /* FOOTER */
 
 .footer-logo img {
   vertical-align: middle;
   margin-right: 8px;
-  width: 50px ;
+  width: 50px;
 }
-
-
-
-
-
 
 .site-footer {
   background: var(--accent);
@@ -462,7 +439,6 @@ justify-content: center;
   gap: 2rem;
   grid-template-columns: 1fr;
 }
-
 
 @media (min-width: 768px) {
   .footer-inner {
@@ -550,131 +526,126 @@ justify-content: center;
 .footer-bottom-text {
   margin: 0;
   font-size: 0.8rem;
-  color: #ffffff!important;
+  color: #ffffff !important;
 }
-
 
 /* OUR SERVICES CARDS */
 
+body {
+  margin: 0;
+  color: var(--text);
+  background: #fff;
+}
 
-  body{
-    margin:0;
-    color:var(--text);
-    background:#fff;
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 20px 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 36px;
+  align-items: start;
+}
+
+/* single feature card */
+.feature {
+  text-align: center;
+  padding: var(--card-pad) 12px;
+  background: transparent;
+}
+
+.icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-weak);
+  border: 3px solid rgba(123, 31, 46, 0.12);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+}
+
+.icon svg {
+  width: 34px;
+  height: 34px;
+  fill: var(--accent);
+  display: block;
+}
+
+.feature h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.feature:hover .icon {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 18px 30px rgba(123, 31, 46, 0.12);
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .wrap{
-    max-width:var(--max-width);
-    margin:0 auto;
-    padding:48px 20px 0;
+@media (max-width: 560px) {
+  .features-grid {
+    grid-template-columns: 1fr;
   }
-
-  .features-grid{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:28px 36px;
-    align-items:start;
+  .wrap {
+    padding: 26px 16px 0;
   }
+}
 
-  /* single feature card */
-  .feature{
-    text-align:center;
-    padding: var(--card-pad) 12px;
-    background:transparent;
-  }
+/* TERMS AND CONDITIONS */
 
-  .icon{
-    width:72px;
-    height:72px;
-    border-radius:50%;
-    margin:0 auto 14px;
-    display:grid;
-    place-items:center;
-    background:var(--accent-weak);
-    border: 3px solid rgba(123,31,46,0.12);
-    transition:transform .28s ease, box-shadow .28s ease;
-    box-shadow: 0 6px 14px rgba(0,0,0,0.04);
-  }
+.terms-conditions {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  line-height: 1.6;
+}
 
-  .icon svg{
-    width:34px;
-    height:34px;
-    fill:var(--accent);
-    display:block;
-  }
+.terms-conditions h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
 
-  .feature h3{
-    margin:0 0 8px;
-    font-size:16px;
-    letter-spacing:0.2px;
-  }
+.terms-conditions h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
 
-  .feature p{
-    margin:0;
-    font-size:13px;
-    color:var(--muted) ;
-    line-height:1.45;
-  }
-
-  .feature:hover .icon{
-    transform:translateY(-6px) scale(1.04);
-    box-shadow:0 18px 30px rgba(123,31,46,0.12);
-  }
-
-  /* responsive */
-  @media (max-width:900px){
-    .features-grid{
-      grid-template-columns: repeat(2,1fr);
-    }
-  }
-
-  @media (max-width:560px){
-    .features-grid{
-      grid-template-columns: 1fr;
-    }
-    .wrap{ padding:26px 16px 0; }
-  }
-
-
-  /* TERMS AND CONDITIONS */
-
-  .terms-conditions{
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 1rem;
-    line-height: 1.6;
-   
-  }
-
-
-  .terms-conditions h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--accent);
-  }
-
-  .terms-conditions h2 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: var(--accent);
-  }
-
- .terms-conditions p {
-    margin-bottom: 1rem;
-    color: var(--muted);
-  }
-
+.terms-conditions p {
+  margin-bottom: 1rem;
+  color: var(--muted);
+}
 
 /* PROFILE PAGE */
 .profile-body {
-  font-family: 'Poppins', sans-serif;
-background-image: url(./images/car\ photo.avif);
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/car\ photo.avif);
   color: var(--text);
 }
-
 
 .profile-container {
   max-width: 400px;
@@ -695,7 +666,7 @@ background-image: url(./images/car\ photo.avif);
 .profile-container p {
   margin-bottom: 1rem;
   color: var(--muted);
-  list-style: none ;
+  list-style: none;
 }
 .profile-container label {
   display: block;
@@ -711,7 +682,7 @@ background-image: url(./images/car\ photo.avif);
   border-radius: 4px;
   background: #f9fafb;
   color: var(--text);
-} 
+}
 
 .profile-container button {
   margin-top: 1rem;
@@ -731,8 +702,8 @@ background-image: url(./images/car\ photo.avif);
 /* SIGNUP PAGE CSS */
 
 .signup-body {
-  font-family: 'Poppins', sans-serif;
-background-image: url(./images/car\ photo.avif);
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/car\ photo.avif);
   color: var(--text);
 }
 
@@ -743,6 +714,8 @@ background-image: url(./images/car\ photo.avif);
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: #e7e5e5de;
+  justify-content: right!important;
+  margin-right: 20px;
 }
 
 .signup h1 {
