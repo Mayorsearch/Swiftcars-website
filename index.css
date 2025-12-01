@@ -714,8 +714,7 @@ body {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: #e7e5e5de;
-  justify-content: right!important;
-  margin-right: 20px;
+  justify-content: right !important;
 }
 
 .signup h1 {
