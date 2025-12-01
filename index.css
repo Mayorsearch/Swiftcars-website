@@ -695,7 +695,7 @@ body {
   cursor: pointer;
 }
 
-.profile-container button:hover {
+/* .profile-container button:hover { */
   background: var(--muted-weak);
 }
 
