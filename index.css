@@ -813,6 +813,16 @@ body {
   font-weight: 600;
 }
 
+.car-card-footer {
+
+  text-decoration: none!important;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent);
+  font-weight: 600;
+}
+
 
 
 
