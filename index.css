@@ -657,8 +657,8 @@ body {
   background: #ffffff;
 }
 
-.profile-container h2 {
-  font-size: 1.5rem;
+.profile-container h1 {
+  font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--accent);
 }
@@ -764,4 +764,88 @@ body {
   margin-top: 1rem;
   font-size: 0.7rem;
   color: var(--muted);
+}
+
+
+
+/* TOYOTA CAMRY 2018 DETAILS */
+
+
+
+.car-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.car-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--accent);
+}
+
+.car-card-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--accent);
+}
+
+.car-card-subtitle {
+  font-size: 0.8rem;
+  margin: 0;
+  color: var(--muted);
+}
+
+.car-card-tags {
+  margin: 0;
+  color: var(--muted);
+}
+
+.hero-section {
+  padding: 1rem;
+  background: #f9fafb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+/* PRIVACY POLICY CSS */
+
+.privacy {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.privacy h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.privacy p {
+  margin-bottom: 1rem;
+  color: var(--muted);
+}
+
+.privacy h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
 }
