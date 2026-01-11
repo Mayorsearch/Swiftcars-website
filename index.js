@@ -10,6 +10,6 @@
 //   }
 // }
 
-// toggleOpen.addEventListener('click', handleClick);
+// toggleOpen.addEventListe
 // toggleClose.addEventListener('click', handleClick);
 
